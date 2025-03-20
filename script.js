@@ -13,7 +13,7 @@ async function sendMessage() {
     let response = await fetch("https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill", {
         method: "POST",
         headers: {
-            "Authorization": "Bearer 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 ",
+            "Authorization": "Bearer sk-proj-jHD1DF5O8gVKnhIHMMs_FKHyR4A ",
             "Content-Type": "application/json"
         },
         body: JSON.stringify({ inputs: userInput })
